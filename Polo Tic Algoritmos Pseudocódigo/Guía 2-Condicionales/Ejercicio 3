@@ -1,0 +1,39 @@
+Algoritmo ejerciciotresguiados
+	
+	Definir totalcliente, preciokg1,preciokg2,preciokg3,cantkg1,cantkg2,cantkg3, producto1, producto2, producto3, descuen, descuentodiez Como Real
+	
+	Escribir "Ingrese el precio del primer producto"
+	Leer preciokg1
+	Escribir "Ingrese el peso del primer producto"
+	Leer cantkg1
+	
+	producto1= (preciokg1*cantkg1)
+	
+	Escribir "El monto total correspondiente al primer producto es de: $"  producto1
+	
+	Escribir "Ingrese el precio del segundo producto"
+	Leer preciokg2
+	
+	Escribir "Ingrese el peso del segundo producto"
+	Leer cantkg2
+	
+	producto2= (preciokg2*cantkg2)
+	Escribir "El monto total correspondiente al segundo producto es de: $"  producto2
+	
+	Escribir "Ingrese el precio del tercer producto"
+	Leer preciokg3
+	Escribir "Ingrese el peso del tercer producto"
+	Leer cantkg3
+	
+	producto3= (preciokg3*cantkg3)
+	Escribir "El monto total correspondiente al tercer producto es de: $"  producto3
+	
+	totalcliente= producto1+producto2+producto3
+	Escribir" El total de la compra realizada por el cliente es de: $" totalcliente
+	Si totalcliente >100 Entonces
+		descuentodiez= ((totalcliente*10)/100)
+		descuen=totalcliente-descuentodiez
+		Escribir" El total con descuento es de: $" descuen
+	FinSi
+	
+FinAlgoritmo
