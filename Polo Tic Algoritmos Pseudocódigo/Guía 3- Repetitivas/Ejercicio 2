@@ -1,0 +1,11 @@
+Algoritmo ejerciciodosguiatres
+	
+	Definir cont, input Como Entero
+	Escribir "Ingrese el número límite: "
+	Leer input
+	
+	Para cont <-1 hasta input Con Paso 1 Hacer
+		Escribir " " cont
+	FinPara
+	
+FinAlgoritmo
