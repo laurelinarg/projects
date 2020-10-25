@@ -1,0 +1,31 @@
+Algoritmo ejercicio2guia4
+	
+	Definir edades Como entero
+	Definir promedio Como Real
+		
+		Dimension edades[5];
+		
+		Para i<-0 hasta 4 con paso 1 hacer
+			Escribir "Ingrese una edad: "
+			leer edades[i]
+		FinPara
+		
+		edadjoven=edades[0]
+		
+		Para i<-0 hasta 4 con paso 1 Hacer
+			si edades[i] < edadjoven Entonces
+				edadjoven=edades[i]
+			FinSi
+		FinPara
+		
+		
+		Para i<-0 hasta 4 con paso 1 Hacer
+			suma=edades[i]+suma
+		FinPara
+		
+		promedio=suma/10
+		
+		Escribir "El más joven tiene  ", edadjoven, "  años"
+		Escribir "El promedio de edad es de  ", promedio, "  años"
+	
+FinAlgoritmo
