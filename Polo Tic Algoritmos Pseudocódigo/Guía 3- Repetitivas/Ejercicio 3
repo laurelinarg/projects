@@ -1,0 +1,10 @@
+Algoritmo ejercicio3guia3
+	Definir cont, input Como Entero
+	cont=200
+	
+	Mientras cont<=250
+		cont=cont+2
+		Escribir " " cont
+		
+	FinMientras
+FinAlgoritmo
