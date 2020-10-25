@@ -1,0 +1,27 @@
+Algoritmo ejercicio6guia3
+	
+	contador=0
+	ganador=0
+	menortiempo=0
+	
+	Mientras contador <=3
+		Escribir "Ingrese el número de vehículo: "
+		Leer vehiculo
+		
+		Escribir "Ingrese el tiempo de la carrera del competidor, expresado en segundos: "
+		Leer tiempo
+		
+		Si tiempo <= menortiempo o menortiempo=0
+			
+			menortiempo=tiempo
+			ganador=vehiculo
+			
+		FinSi
+		
+		contador=contador+1
+	FinMientras
+	
+	Escribir "El número de vehiculo del ganador es: " ganador
+	Escribir "con un tiempo de:  segundos" menortiempo
+	
+FinAlgoritmo
