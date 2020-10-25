@@ -1,0 +1,37 @@
+Algoritmo ejercicio5guia4
+	
+	Dimension vendedores[4];
+	Dimension ventas[4];
+	
+	
+	Para i<-0 hasta 3 Con Paso 1 Hacer
+		Escribir "Ingrese el nombre de cada empleado: " 
+		leer nombre
+		vendedores[i]<-nombre
+		
+		
+		Escribir "Ingrese el valor de la venta:  "
+		leer valorven
+		ventas[i]<-valorven
+		
+	FinPara
+	
+	mayorventa=ventas[0]
+	menorventa=ventas[0]
+	
+	Para i<-0 hasta 3 con paso 1 Hacer
+		si ventas[i] > mayorventa Entonces
+			mayorventa=ventas[i]
+		SiNo
+			si ventas[i] < menorventa Entonces
+				menorventa=ventas[i]
+			finsi
+		FinSi
+	FinPara
+	
+	mayorendolares=mayorventa*140
+	menorendolares=menorventa*140
+	
+	Escribir "La meyor venta fue de  " mayorendolares,"  u$d" 
+	Escribir "La menos venta fue de " menorendolares,"  u$d"
+FinAlgoritmo
