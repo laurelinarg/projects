@@ -1,0 +1,21 @@
+Algoritmo dosguiados
+	Definir cantprodvendidos Como Entero
+	
+	cantprodvendidos=0
+	
+	Escribir "Ingrese cantidad de paquetes en cada venta"
+	Leer cantprodvendidos	
+	cantprodvendidos=cantprodvendidos+1
+	
+	Si cantprodvendidos<5 Entonces
+		Escribir "No se permiten compras inferiores a 5 productos"
+	FinSi
+	
+	Si cantprodvendidos >=5 y cantprodvendidos<= 15 Entonces
+		Escribir "El costo de envío es de $200"
+	FinSi
+	
+	Si cantprodvendidos >=5 y cantprodvendidos >=15 Entonces
+		Escribir "El envío es gratuito"
+	FinSi
+FinAlgoritmo
