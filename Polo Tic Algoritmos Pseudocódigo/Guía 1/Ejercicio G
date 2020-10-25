@@ -1,0 +1,15 @@
+Algoritmo Gguia1
+	
+	Definir num1, num2, porcentaje Como Real
+	
+	Escribir "Ingrese número:"
+	Leer num1
+	
+	Escribir "Ingrese en decimales el porcentaje que desea sobre el número ingresado:" 
+	Leer num2
+	
+	porcentaje=num1*num2
+	
+	Escribir "El porcentaje es: " porcentaje, "%"
+	
+FinAlgoritmo
