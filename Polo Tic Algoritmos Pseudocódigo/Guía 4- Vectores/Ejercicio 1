@@ -1,0 +1,26 @@
+Algoritmo ejercicio1guia4
+	
+	Definir ingresos, num Como entero
+	
+	Dimension ingresos[10];
+	
+	Para i<-0 hasta 9 con paso 1 hacer
+		Escribir "Ingrese sueldo de su empleado: "
+		leer ingresos[i]
+	FinPara
+	
+	max=[0]
+	
+	Para i<-0 hasta 9 con paso 1 Hacer
+		si ingresos[i] > max Entonces
+			max=ingresos[i]
+		FinSi
+	FinPara
+	
+	Para i<-0 hasta 9 con paso 1 hacer
+		Escribir "El sueldo de su empleado: ", ingresos[i], " $"
+	FinPara
+	
+	Escribir "El mayor sueldo es de: " max " $"
+	
+	
