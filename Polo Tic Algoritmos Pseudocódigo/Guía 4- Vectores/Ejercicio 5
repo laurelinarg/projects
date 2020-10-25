@@ -1,0 +1,43 @@
+Algoritmo ejercicio5guia4
+	
+	Dimension patente[5];
+	Dimension chofer[5];
+	Dimension tipodecarga[5];
+	Dimension horaegreso[5];
+	
+	Para i<-1 hasta 5 con paso 1 Hacer
+		Escribir "Ingrese la patente del camión: " i
+		Leer patente[i];
+		
+		Escribir "Ingrese nombre y apellido del chofer: " i
+		Leer chofer[i];
+		
+		Escribir "Ingrese tipo de carga que lleva el camión: madera, yerba o té " i
+		Leer tipodecarga[i];
+		
+		conte=0
+		
+		Si tipodecarga[i]== "te" Entonces
+			conte=conte+1
+		FinSi
+		
+		Escribir "Ingrese la hora en que salió el camión: HH:MM " i
+		Leer horaegreso[i];
+		
+	FinPara
+	
+	Para i<-1 hasta 5 con paso 1 Hacer
+		
+		Escribir "La patente del camión es: " patente[i]
+		
+		Escribir "El nombre y apellido del chofer es: " chofer[i];
+		
+		Escribir "El tipo de carga que lleva el camión es: " tipodecarga[i];
+		
+		Escribir "La hora en que salió el camión: " horaegreso[i];
+		
+	FinPara
+	
+	Escribir "La cantidad de camiones con té fueron: " conte
+	
+FinAlgoritmo
