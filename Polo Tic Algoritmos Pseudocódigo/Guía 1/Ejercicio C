@@ -1,0 +1,16 @@
+Algoritmo Cguia1
+	
+	Definir base, exponente, potencia Como Entero
+	
+	Escribir "Ingrese la base del número: "
+	Leer base
+	
+	Escribir "Ingrese el exponente del número:"
+	Leer exponente
+	
+	potencia=base^exponente
+	Escribir "El número  ", base "elevado a la  ",exponente "es: " potencia 
+	
+	
+	
+FinAlgoritmo
