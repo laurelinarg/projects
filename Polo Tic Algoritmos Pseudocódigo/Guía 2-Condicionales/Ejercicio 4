@@ -1,0 +1,53 @@
+Algoritmo ejerciciocuatroguiados
+	
+	Definir cat, DNI Como Entero
+	Definir sueldobruto, jubila, obrasocial, descuenclub, sueldoneto como Real
+	
+	Escribir "Ingrese DNI"
+	Leer DNI
+	Escribir "Ingrese Categoría a la que pertenece teniendo en cuenta lo siguiente: Maestranza=0, Administración=1, Gerencia=2"
+	Leer cat
+	
+	Si cat=0 Entonces
+		sueldobruto=23600
+		jubila=((sueldobruto*11)/100)
+		obrasocial=((sueldobruto*3)/100)
+		sueldoneto= sueldobruto-jubila-obrasocial
+		
+		
+		Escribir "Su DNI es: " DNI
+		Escribir "Su sueldo neto es de: $" sueldoneto
+		Escribir "Pertenece a la categoría Maestranza"
+		
+		
+	FinSi
+	
+	Si cat=1 Entonces
+		sueldobruto=35800
+		jubila=((sueldobruto*11)/100)
+		obrasocial=((sueldobruto*5)/100)
+		sueldoneto= sueldobruto-jubila-obrasocial
+		
+		
+		Escribir "Su DNI es: " DNI
+		Escribir "Su sueldo neto es de: $" sueldoneto
+		Escribir "Pertenece a la categoría Administración"
+		
+		
+	FinSi
+	
+	Si cat=2 Entonces
+		sueldobruto=60420
+		jubila=((sueldobruto*11)/100)
+		obrasocial=((sueldobruto*5)/100)
+		descuenclub= ((sueldobruto*4)/100)
+		sueldoneto= sueldobruto-jubila-obrasocial-descuenclub
+		
+		
+		Escribir "Su DNI es: " DNI
+		Escribir "Su sueldo neto es de: $" sueldoneto
+		Escribir "Pertenece a la categoría Gerencia"
+		
+		
+	FinSi
+FinAlgoritmo
