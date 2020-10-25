@@ -1,0 +1,59 @@
+Algoritmo ejercicio8_
+	
+	Definir totalpersonas, DNI, edad, cantidadFem,cantidadMasc, entreRango,mayorEdad,DniMayoredad Como Entero
+	Definir porcentajeM Como Real
+	Definir sexo, sexoMayor Como Caracter
+	
+	Escribir "Ingrese el DNI"
+	Leer DNI
+	
+	totalpersonas=0
+	cantidadFem=0
+	cantidadMasc=0
+	entreRango=0
+	mayorEdad=0
+	
+	Mientras (DNI <> 0)
+		Escribir "Ingrese la edad"
+		Leer edad
+		Escribir  "Ingrese F= femenino o M= masculino para definir el sexo"
+		Leer sexo
+		
+		totalpersonas=totalpersonas+1
+		
+		Si sexo= "M" Entonces
+			cantidadMasc=cantidadMasc+1	
+			Si edad=16 y edad=65 Entonces
+				entreRango=entreRango+1
+			FinSi
+		FinSi
+	  
+		Si sexo="F" Entonces
+		cantidadFem=cantidadFem+1
+			
+		FinSi
+	
+		Si (edad>mayorEdad) Entonces
+			DniMayoredad=DNI
+			mayorEdad=edad
+			sexoMayor=sexo
+		FinSi
+		Escribir "Ingrese el DNI"
+		Leer DNI
+	FinMientras
+	
+	porcentajeM= ((entreRango*100)/cantidadMasc)
+	
+	Escribir "<<<INFORME>>>"
+	Escribir "++++++++++++"
+	Escribir "El total de personas censadas es:" totalpersonas
+	Escribir "La cantidad de Varones es:" cantidadMasc
+	Escribir "El total de Mujeres es:" cantidadFem
+	Escribir "El portentaje de varones entre cuya edad varia entre 16 y 65 años respecto del total de varones es: %" porcentajeM
+	
+	Escribir "DATOS DE LA PERSONA DE MAYOR EDAD"
+	Escribir "DNI del mayor: " DniMayoredad
+	Escribir "Edad del mayor: años" mayorEdad
+	Escribir "Sexo del mayor: " sexoMayor
+	
+FinAlgoritmo
