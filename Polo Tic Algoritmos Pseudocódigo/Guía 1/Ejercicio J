@@ -1,0 +1,15 @@
+Algoritmo Jguia1
+	
+	Definir base, altura, área Como Real
+	
+	Escribir "Ingrese base del triángulo: "
+	Leer base
+	
+	Escribir "Ingrese altura del triángulo: "
+	Leer altura
+	
+	área= (base*altura) /2
+	
+	Escribir "El área del triángulo es: " área
+		
+FinAlgoritmo
