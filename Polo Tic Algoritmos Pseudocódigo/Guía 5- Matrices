@@ -1,0 +1,18 @@
+Algoritmo ejercicio1guia5
+	
+	Dimension matriznula[4,4];
+	
+	Para i<-0 hasta 3 Hacer
+		Para j<-0 hasta 3 Hacer
+			matriznula[i,j]<-0
+		FinPara
+	FinPara
+	
+	
+Escribir "  ",matriznula[0,0]," ",matriznula[0,1]," ",matriznula[0,2]," ",matriznula[0,3];
+Escribir "  ",matriznula[1,0]," ",matriznula[1,1]," ",matriznula[1,2]," ",matriznula[1,3];
+Escribir "  ",matriznula[2,0]," ",matriznula[2,1]," ",matriznula[2,2]," ",matriznula[2,3];
+Escribir "  ",matriznula[3,0]," ",matriznula[3,1]," ",matriznula[3,2]," ",matriznula[3,3];
+	
+	
+FinAlgoritmo
