@@ -1,0 +1,53 @@
+Algoritmo Ejercicio_1_guía_2
+	
+	Definir cat como entero
+	Definir sueldobruto, jub, obrasoc, bono, sueldoneto como real
+	
+	Escribir "Puestos: 1- Repositor, 2-Cajero, 3- Supervisor "
+	Escribir "Ingrese el número de categoría de su puesto"
+	
+	Leer cat
+	
+	Segun cat hacer
+		
+		caso 1:
+			sueldobruto=32335
+			jub= sueldobruto*0.11
+			obrasoc= sueldobruto*0.03
+			bono=sueldobruto*0.08
+			sueldoneto=sueldobruto-jub-obrasoc
+            Escribir "El empleado pertenece a la categoría Repositor por lo que: "
+            Escribir "Su sueldo neto es de: $" sueldoneto
+            Escribir "Tiene un bono de: $" bono
+            Escribir "El descuento jubilatorio es de: $" jub
+            Escribir "El descuento de la obra social es de: $" obrasoc
+			
+		caso 2:
+			sueldobruto=38630.89
+			jub= sueldobruto*0.11
+			obrasoc= sueldobruto*0.03
+			bono=sueldobruto*0.08
+			sueldoneto=sueldobruto-jub-obrasoc
+            Escribir "El empleado pertenece a la categoría Cajero por lo que: "
+            Escribir "Su sueldo neto es de: $" sueldoneto
+            Escribir "Tiene un bono de: $" bono
+            Escribir "El descuento jubilatorio es de: $" jub
+            Escribir "El descuento de la obra social es de: $" obrasoc
+			
+		caso 3:
+			sueldobruto=45560.20
+			jub= sueldobruto*0.11
+			obrasoc= sueldobruto*0.03
+			bono=sueldobruto*0.08
+			sueldoneto=sueldobruto-jub-obrasoc
+            Escribir "El empleado pertenece a la categoría Supervisor por lo que: "
+            Escribir "Su sueldo neto es de: $" sueldoneto
+            Escribir "Tiene un bono de: $" bono
+            Escribir "El descuento jubilatorio es de: $" jub
+            Escribir "El descuento de la obra social es de: $" obrasoc
+			
+			De otro modo
+			Escribir "El número ingresado no pertenece al listado de puestos especificados"
+	Finsegun
+Fin Algoritmo
+
