@@ -1,0 +1,36 @@
+Algoritmo ejercicio3guia5
+	Dimension matriznotas[4,4];
+	
+	Para f<-1 hasta 4 con paso 1 Hacer
+		acumulador= 0
+		promedio= 0
+		
+		Para c<-1 hasta 4 con paso 1 Hacer
+			
+			Si c=4 Entonces
+				promedio=acumulador/3
+				matriznotas[f,c]=promedio
+			SiNo
+				Escribir "Ingrese nota" c
+				Leer matriznotas[f,c];
+				acumulador=acumulador+matriznotas[f,c];
+			FinSi
+			
+			
+		FinPara
+	FinPara
+	
+	Para f<-1 hasta 4 con paso 1 Hacer
+		Para c<-1 hasta 4 con paso 1 Hacer
+			
+			Si c=4 Entonces
+				Escribir "El promedio es:" promedio
+			SiNo
+				Escribir "La nota" c, "es" matriznotas[f,c];
+			FinSi
+			
+			
+		FinPara
+	FinPara
+	
+FinAlgoritmo
