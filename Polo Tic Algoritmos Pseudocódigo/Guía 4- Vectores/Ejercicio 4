@@ -1,0 +1,33 @@
+Algoritmo ejercicio4guia4
+	
+	Definir notas Como Real
+	
+	Escribir "Ingrese número de notas a considerar: "
+	Leer n
+	Dimension notas[n];
+	
+	Para i<-1 hasta n Con Paso 1 Hacer
+		Escribir "Ingrese la nota número ", i
+		leer nota
+		notas[i]<-nota
+	FinPara
+	
+	aprobados=0
+	desaprobados=0
+	
+	Para i<-1 hasta n con paso 1 Hacer
+		si notas[i] >= 6 Entonces
+			aprobados=aprobados+1
+		SiNo
+			si notas[i] < 6 Entonces
+				desaprobados=desaprobados+1
+			finsi
+		FinSi
+	FinPara
+	
+	Escribir "La cantidad de alumnos aprobados es: ", aprobados
+	Escribir "La cantidad de alumnos desaprobados es: " desaprobados
+
+
+FinAlgoritmo
+
