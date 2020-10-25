@@ -1,0 +1,15 @@
+Algoritmo Fguia1
+	
+	Definir altura, peso, masacorporal Como Real
+	
+	Escribir "Por favor, ingrese la altura: "
+	Leer altura
+	
+	Escribir "Ahora proceda a ingresar el peso: "
+	Leer peso
+	
+	masacorporal=peso/(altura^2)
+	
+	Escribir "Su índice de masa corporal es: " masacorporal " %"
+	
+FinAlgoritmo
