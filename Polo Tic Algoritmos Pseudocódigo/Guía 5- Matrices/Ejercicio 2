@@ -1,0 +1,21 @@
+Algoritmo ejercicio2guia5
+	
+	Dimension matrizidentidad[4,4];
+	
+	Para i = 0 Hasta 3 Hacer
+		Para j = 0 Hasta 3 Hacer
+			matrizidentidad[i,j] = 0;
+			matrizidentidad[0,3] = 1;
+			matrizidentidad[1,2] = 1;
+			matrizidentidad[2,1] = 1;
+			matrizidentidad[3,0] = 1;
+		Fin Para
+	Fin Para
+	
+	
+	Escribir "  ",matrizidentidad[0,0]," ",matrizidentidad[0,1]," ",matrizidentidad[0,2]," ",matrizidentidad[0,3];
+	Escribir "  ",matrizidentidad[1,0]," ",matrizidentidad[1,1]," ",matrizidentidad[1,2]," ",matrizidentidad[1,3];
+	Escribir "  ",matrizidentidad[2,0]," ",matrizidentidad[2,1]," ",matrizidentidad[2,2]," ",matrizidentidad[2,3];
+	Escribir "  ",matrizidentidad[3,0]," ",matrizidentidad[3,1]," ",matrizidentidad[3,2]," ",matrizidentidad[3,3];
+	
+FinAlgoritmo
