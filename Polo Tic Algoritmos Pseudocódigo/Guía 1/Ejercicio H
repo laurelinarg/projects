@@ -1,0 +1,12 @@
+lgoritmo Hguia1
+	
+	Definir num1, porcentaje, resultado Como Real
+	
+	Escribir "Ingrese el valor del producto del que desea sacar el IvA: "
+	Leer num1
+	
+	resultado= num1*0.21
+	
+	Escribir "El valor del IVA del producto es de: " resultado, " $"
+	
+FinAlgoritmo
