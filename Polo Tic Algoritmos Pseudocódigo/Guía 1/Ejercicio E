@@ -1,0 +1,19 @@
+Algoritmo Eguia1
+	
+	Definir variable1, variable2 Como Entero
+	
+	variable1=5
+	variable2 =12
+	
+	Escribir "El Valor de la variable1 es: " variable1
+	Escribir "y el valor de la variable2 es: " variable2
+	
+	Escribir "-> I N T E R C A M B I O <-"
+	
+	variable1=12
+	variable2=5
+	
+	Escribir "El Valor de la variable1 es: " variable1
+	Escribir "y el valor de la variable2 es: " variable2
+	
+FinAlgoritmo
