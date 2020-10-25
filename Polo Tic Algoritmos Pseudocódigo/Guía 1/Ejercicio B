@@ -1,0 +1,12 @@
+Algoritmo Bguia1
+	Definir número1, número2, suma Como Entero
+	Escribir "Ingrese dos números enteros:"
+	
+	Leer número1
+	Leer número2
+	
+	suma= número1+número2
+	
+	Escribir "El resultado es: " suma
+	
+FinAlgoritmo
