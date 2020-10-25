@@ -1,0 +1,25 @@
+Algoritmo ejerciciocincoguiatres
+	
+	Definir DNI, servicio, valor_servicio Como Entero
+	Definir promo Como Real
+	valor_servicio=0
+	
+	
+	Escribir "Ingrese el DNI"
+	Leer DNI
+	Escribir "Ingrese el tipo de servicio que tiene, siendo 1).30 megas, 2).50 megas, 3).100 megas"
+	Leer servicio
+	
+	Segun servicio hacer
+		Opcion 1:
+				Escribir"Cliente con número de DNI:  " DNI ", debe pagar: 750$" 
+		Opcion 2:
+				Escribir"Cliente con número de DNI:  " DNI ", debe pagar: 1100$"
+		Opcion 3:
+				promo=1500- ((1500*5)/100)
+				Escribir"Cliente con número de DNI:  " DNI ", debe pagar:  $" promo
+		De Otro Modo:
+			Escribir "El número ingresado no es válido"
+	FinSegun
+	
+FinAlgoritmo
