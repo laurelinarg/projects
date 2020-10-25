@@ -1,0 +1,9 @@
+Algoritmo ejerciciounoguiatres
+	
+	Definir cont Como Entero
+	
+	Para cont <-1 hasta 35 Con Paso 1 Hacer
+		Escribir " " cont
+	FinPara
+	
+FinAlgoritmo
